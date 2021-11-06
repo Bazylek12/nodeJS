@@ -18,4 +18,4 @@ const os = require('os');
 
 let user = os.userInfo().username;
 let home = os.userInfo().homedir;
-fs.writeFileSync('user.txt', user + home);
+fs.writeFileSync('user.txt', user);
